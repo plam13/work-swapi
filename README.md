@@ -1,4 +1,4 @@
-# Star Wars Movie / SWAPI API
+# Star Wars Movie / SWAPI
 
 ## About the project
 
