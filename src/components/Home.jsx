@@ -11,11 +11,11 @@ export default function Home() {
           <br />
           far away...
         </h2>
-        <img className="intro-img" src={homeIntroImg} alt="intro" />;
+        <img className="intro-img" src={homeIntroImg} alt="intro" />
         <div className="intro"></div>
         <h2 className="intro-last">... and now in our time :-)</h2>
         <div className="box">
-        <img className="img-now box" src={homeIntroImgNow} alt="intro" />;
+        <img className="img-now box" src={homeIntroImgNow} alt="intro" />
         </div>
       </div>
       <div className="intro intro-last">
