@@ -10,7 +10,7 @@ To see this project in action, go to [Demo Star Wars](https://finmavis.github.io
 ## Getting Started
 
 Clone this repo :
-`git clone https://github.com/plam13/work-swapi`
+`git clone https://github.com/plam13/work-swapi.git`
 
 Navigate to the root folder and install all dependencies :
 
