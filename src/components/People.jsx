@@ -13,17 +13,17 @@ export default function People({ data }) {
                 <Card.Content>
                   <Card.Header header>{people.name}</Card.Header>
                   <Card.Description>
-                    <span class="ui small label">Height</span>
+                    <span className="ui small label">Height</span>
                     <p>{people.height}</p>
-                    <span class="ui small label">Mass</span>
+                    <span className="ui small label">Mass</span>
                     <p>{people.mass}</p>
-                    <span class="ui small label">Hair Color</span>
+                    <span className="ui small label">Hair Color</span>
                     <p>{people.hair_color}</p>
-                    <span class="ui small label">Eye Color</span>
+                    <span className="ui small label">Eye Color</span>
                     <p>{people.eye_color}</p>
-                    <span class="ui small label">Height</span>
+                    <span className="ui small label">Height</span>
                     <p>{people.height}</p>
-                    <span class="ui small label">PLay in Films</span>
+                    <span className="ui small label">PLay in Films</span>
                     <ul>{people.films.map((film, index) => (
                       <li key={index}>
                         <a href={film} target="_blank" rel="noreferrer">{film}</a>
