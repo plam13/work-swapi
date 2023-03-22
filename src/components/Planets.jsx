@@ -13,17 +13,17 @@ export default function Planets({ data }) {
                 <Card.Content>
                   <Card.Header>{planets.name}</Card.Header>
                   <Card.Description>
-                    <span class="ui small label">Climate</span>
+                    <span className="ui small label">Climate</span>
                     <p>{planets.climate}</p>
-                    <span class="ui small label">Diameter</span>
+                    <span className="ui small label">Diameter</span>
                     <p>{planets.diameter}</p>
-                    <span class="ui small label">Terrain</span>
+                    <span className="ui small label">Terrain</span>
                     <p>{planets.terrain}</p>
-                    <span class="ui small label">Surface water</span>
+                    <span className="ui small label">Surface water</span>
                     <p>{planets.surface_water}</p>
-                    <span class="ui small label">Population</span>
+                    <span className="ui small label">Population</span>
                     <p>{planets.population}</p>
-                    <span class="ui small label">Residents</span>
+                    <span className="ui small label">Residents</span>
                     <ul>{planets.residents.map((resident, index) => (
                       <li key={index}>
                         <a href={resident} target="_blank" rel="noreferrer">{resident}</a>
