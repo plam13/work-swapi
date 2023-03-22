@@ -15,19 +15,19 @@ export default function Vehicles({ data }) {
                   <Card.Header>{vehicles.name}</Card.Header>
                   <Card.Description>
                     <span className="ui small label">Official model name</span>
-                    <p>{vehicle.model}</p>
+                    <p>{vehicles.model}</p>
                     <span className="ui small label">Vehicle class</span>
-                    <p>{vehicle.vehicle_class}</p>
+                    <p>{vehicles.vehicle_class}</p>
                     <span className="ui small label">Manufacturer</span>
-                    <p>{vehicle.manufacturer}</p>
+                    <p>{vehicles.manufacturer}</p>
                     <span className="ui small label">Cost in galactic credits</span>
-                    <p>{vehicle.cost_in_credits}</p>
+                    <p>{vehicles.cost_in_credits}</p>
                     <span className="ui small label">Max atmosphering speed</span>
-                    <p>{vehicle.max_atmosphering_speed}</p>
+                    <p>{vehicles.max_atmosphering_speed}</p>
                     <span className="ui small label">Consumables</span>
-                    <p>{vehicle.consumables}</p>
+                    <p>{vehicles.consumables}</p>
                     <span className="ui small label">Crew</span>
-                    <p>{vehicle.crew}</p>
+                    <p>{vehicles.crew}</p>
                   </Card.Description>
                 </Card.Content>
               </Card>
