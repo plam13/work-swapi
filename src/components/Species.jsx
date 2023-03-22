@@ -13,21 +13,21 @@ export default function Species({ data }) {
                 <Card.Content>
                   <Card.Header>{species.name}</Card.Header>
                   <Card.Description>
-                    <span class="ui small label">Classification</span>
+                    <span className="ui small label">Classification</span>
                     <p>{species.classification}</p>
-                    <span class="ui small label">Designation</span>
+                    <span className="ui small label">Designation</span>
                     <p>{species.designation}</p>
-                    <span class="ui small label">Language </span>
+                    <span className="ui small label">Language </span>
                     <p>{species.language}</p>
-                    <span class="ui small label">Average height</span>
+                    <span className="ui small label">Average height</span>
                     <p>{species.average_height}</p>
-                    <span class="ui small label">Average lifespan in years</span>
+                    <span className="ui small label">Average lifespan in years</span>
                     <p>{species.average_lifespan}</p>
-                    <span class="ui small label">Eye colors</span>
+                    <span className="ui small label">Eye colors</span>
                     <p>{species.eye_colors}</p>
-                    <span class="ui small label">Hair colors</span>
+                    <span className="ui small label">Hair colors</span>
                     <p>{species.hair_colors}</p>
-                    <span class="ui small label">Films</span>
+                    <span className="ui small label">Films</span>
                     <ul>{species.films.map((film, index) => (
                       <li key={index}>
                         <a href={film} target="_blank" rel="noreferrer">{film}</a>
