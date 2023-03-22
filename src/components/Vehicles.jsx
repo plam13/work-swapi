@@ -14,21 +14,20 @@ export default function Vehicles({ data }) {
                 <Card.Content>
                   <Card.Header>{vehicles.name}</Card.Header>
                   <Card.Description>
-                    <strong>Official model name</strong>
-                    <p>{vehicles.model}</p>
-                    <strong>Starship class</strong>
-                    <p>{vehicles.vehicle_class}</p>
-                    <strong>Manufacturer </strong>
-                    <p>{vehicles.manufacturer}</p>
-                    <strong>Cost in galactic credits </strong>
-                    <p>{vehicles.cost_in_credits}</p>
-                    <strong>Max atmosphering speed</strong>
-                    <p>{vehicles.max_atmosphering_speed}</p>
-                    <strong>Consumables</strong>
-                    <p>{vehicles.consumables}</p>
-                    <strong>Crew</strong>
-                    <p>{vehicles.crew}</p>
-                  </Card.Description>
+                    <span className="ui small label">Official model name</span>
+                    <p>{vehicle.model}</p>
+                    <span className="ui small label">Vehicle class</span>
+                    <p>{vehicle.vehicle_class}</p>
+                    <span className="ui small label">Manufacturer</span>
+                    <p>{vehicle.manufacturer}</p>
+                    <span className="ui small label">Cost in galactic credits</span>
+                    <p>{vehicle.cost_in_credits}</p>
+                    <span className="ui small label">Max atmosphering speed</span>
+                    <p>{vehicle.max_atmosphering_speed}</p>
+                    <span className="ui small label">Consumables</span>
+                    <p>{vehicle.consumables}</p>
+                    <span className="ui small label">Crew</span>
+                    <p>{vehicle.crew}</
                 </Card.Content>
               </Card>
             </Grid.Column>
