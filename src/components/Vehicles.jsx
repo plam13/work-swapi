@@ -28,6 +28,7 @@ export default function Vehicles({ data }) {
                     <p>{vehicle.consumables}</p>
                     <span className="ui small label">Crew</span>
                     <p>{vehicle.crew}</p>
+                  </Card.Description>
                 </Card.Content>
               </Card>
             </Grid.Column>
