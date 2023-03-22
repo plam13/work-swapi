@@ -83,14 +83,15 @@ h2 {
   padding-left: 0.5em !important;
   padding-right: 0.5em !important;
 }
-
 .ui.card > .content p {
   margin-left: 15px !important;
   border-left: 1px solid #d2d1d1;
   padding-left: 8px;
   margin-bottom: 0.7em !important;
 }
-
+.ui.card a {
+  font-size: 0.9em;
+}
 .description ul {
   margin-top: 0;
 }
