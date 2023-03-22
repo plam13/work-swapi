@@ -13,19 +13,19 @@ export default function Starships({ data }) {
                 <Card.Content>
                   <Card.Header> {starships.name}</Card.Header>
                   <Card.Description>
-                    <span class="ui small label">Official model name</span>
+                    <span className="ui small label">Official model name</span>
                     <p>{starships.model}</p>
-                    <span class="ui small label">Starship class</span>
+                    <span className="ui small label">Starship class</span>
                     <p>{starships.starship_class}</p>
-                    <span class="ui small label">Manufacturer</span>
+                    <span className="ui small label">Manufacturer</span>
                     <p>{starships.manufacturer}</p>
-                    <span class="ui small label">Cost in galactic credits</span>
+                    <span className="ui small label">Cost in galactic credits</span>
                     <p>{starships.cost_in_credits}</p>
-                    <span class="ui small label">Hyperdrive rating</span>
+                    <span className="ui small label">Hyperdrive rating</span>
                     <p>{starships.hyperdrive_rating}</p>
-                    <span class="ui small label">Consumables</span>
+                    <span className="ui small label">Consumables</span>
                     <p>{starships.consumables}</p>
-                    <span class="ui small label">MGLT</span>
+                    <span className="ui small label">MGLT</span>
                     <p>{starships.MGLT}</p>
                   </Card.Description>
                 </Card.Content>
